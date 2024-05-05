@@ -1,6 +1,6 @@
 "use client"
 // import { useClickAway } from "react-use";
-import { useRef } from "react";
+import { useLayoutEffect, useRef } from "react";
 import { useState } from "react";
 import { Squash as Hamburger } from "hamburger-react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -10,9 +10,23 @@ export const NavMobile = () => {
   const [isOpen, setOpen] = useState(false);
   const ref = useRef(null);
 
+  useLayoutEffect(() => {
+    const body = document.body;
+    if (isOpen) {
+      body.style.overflow = 'hidden'; 
+    } else {
+      body.style.overflow = 'auto'; 
+    }
+
+  
+    return () => {
+      body.style.overflow = 'auto'; 
+    };
+  }, [isOpen]);
+
   return (
     <div className="xl:hidden">
-        <div className="fixed z-50 right-[15px] top-[85px]"> 
+        <div className="absolute z-50 right-[15px] top-[25px]"> 
        <Hamburger size={60} color="white" easing="ease-in" toggled={isOpen} toggle={setOpen} />
        </div>
        <AnimatePresence>
@@ -27,8 +41,8 @@ export const NavMobile = () => {
           delay: 0.1,
         }}
         exit={{ opacity: 0 }}
-        className="fixed left-0 right-0 top-[3.5rem] p-5 pt-0 mt-[10px] bg-neutral-900">
-          <ul className="grid gap-[11px]">
+        className="fixed h-full left-0 right-0 top-0 z-40 p-5 pt-0 mt-[10px] bg-neutral-900">
+          <ul className="grid mt-[65px] gap-[11px]">
             {routes.map((route) => {
 
               return (

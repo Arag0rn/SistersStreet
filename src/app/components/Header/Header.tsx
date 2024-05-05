@@ -8,7 +8,7 @@ import { NavMobile } from './BurgerMenu/Nav-mobile';
 export const Header = () => { 
   return (
     <header>
-        <div className="mx-auto mt-[80px] flex justify-between sm:px-[6px] md:px-[32px] xl:px-[120px]">
+        <div className="mx-auto xl:mt-[80px] mt-[20px] flex justify-between sm:px-[16px] md:px-[32px] xl:px-[120px]">
             <Image
             priority
             src="/images/Logo.svg"
