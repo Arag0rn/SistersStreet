@@ -11,7 +11,7 @@ export const Header = () => {
         <div className="mx-auto xl:mt-[80px] mt-[20px] flex justify-between sm:px-[16px] md:px-[32px] xl:px-[120px]">
             <Image
             priority
-            src="/images/Logo.svg"
+            src="/header/Logo.svg"
             height={60}
             width={60}
             alt="sister street logo"
