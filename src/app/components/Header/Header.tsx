@@ -1,9 +1,9 @@
 "use client"
 import React from 'react';
-
 import Image from 'next/image';
 import { NavDesktop } from './BurgerMenu/NavDesktop';
 import { NavMobile } from './BurgerMenu/Nav-mobile';
+import logo from '../../../images/header/Logo.svg';
 
 export const Header = () => { 
   return (
@@ -11,7 +11,7 @@ export const Header = () => {
         <div className="mx-auto xl:mt-[80px] mt-[20px] flex justify-between sm:px-[16px] md:px-[32px] xl:px-[120px]">
             <Image
             priority
-            src="/header/Logo.svg"
+            src={logo}
             height={60}
             width={60}
             alt="sister street logo"

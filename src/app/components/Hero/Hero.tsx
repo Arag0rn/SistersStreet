@@ -1,6 +1,14 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
+import polygon from '../../../images/hero/Polygon.svg';
+import polygon2 from '../../../images/hero/Polygon2.svg';
+import insta from '../../../images/hero/Insta.svg';
+import facebook from '../../../images/hero/Facebook.svg';
+import linkedIn from '../../../images/hero/linkedIn.svg';
+import phone1 from '../../../images/hero/Phone1.webp';
+import phone2 from '../../../images/hero/Phone2.webp';
+
 
 const Hero = () => {
     const [isLargeScreen, setIsLargeScreen] = useState(true);
@@ -32,7 +40,7 @@ const Hero = () => {
           <Image
             className='absolute md:mt-[0px] max-w-none max-h-none left-1/2 transform -translate-x-1/2  md:w-[977px] md:h-[650px] md:left-[85px] md:top-[120px] top-[40px] md:-translate-x-0 z-1'
            priority
-           src="/hero/Polygon2.svg"
+           src={polygon2}
            height={430}
            width={430}
            alt="Polygon"
@@ -41,7 +49,7 @@ const Hero = () => {
             <Image
             className='absolute max-w-none max-h-none left-1/2 transform -translate-x-1/2 top-[40px] z-1'
            priority
-           src="/hero/Polygon.svg"
+           src={polygon}
            height={430}
            width={430}
            alt="Polygon"
@@ -51,7 +59,7 @@ const Hero = () => {
             <Image
             className='sm:mt-[52px]  max-w-none max-h-none h-[300px] md:absolute md:left-[345px] md:w-[274px] md:h-[500px] md:top-[-76px] z-10'
             priority
-            src="/hero/Phone1.webp"
+            src={phone1}
             height={303}
             width={170}
             alt="Facebook"
@@ -59,7 +67,7 @@ const Hero = () => {
             <Image
             className='sm:mt-[68px] ml-[25px] z-10 max-w-none max-h-none h-[330px] md:absolute md:top-[60px] md:w-[274px] md:h-[500px] md:left-[545px] '
             priority
-            src="/hero/Phone2.webp"
+            src={phone2}
             height={20}
             width={170}
             alt="Facebook"
@@ -73,21 +81,21 @@ const Hero = () => {
             <div className='flex justify-between mt-[56px] px-[37px]'>
             <Image
             priority
-            src="/hero/Facebook.svg"
+            src={facebook}
             height={48}
             width={48}
             alt="Facebook"
             />
                <Image
             priority
-            src="/hero/Insta.svg"
+            src={insta}
             height={48}
             width={48}
             alt="Insta"
             />
                <Image
             priority
-            src="/hero/linkedIn.svg"
+            src={linkedIn}
             height={48}
             width={48}
             alt="linkedIn"
