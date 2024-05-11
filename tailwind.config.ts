@@ -13,6 +13,7 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
           'hero-pattern': "url('../images/hero/Polygon.svg')",
+          'staysafe-pattern': "url('../images/staysafe/Polygon2.svg')",
       },
     },
     screens: {

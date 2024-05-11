@@ -1,7 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
-
 import insta from '../../../images/hero/Insta.svg';
 import facebook from '../../../images/hero/Facebook.svg';
 import linkedIn from '../../../images/hero/linkedIn.svg';
@@ -13,7 +12,7 @@ const Hero = () => {
 
   return (
     <section 
-    className="bg-no-repeat relative bg-hero-pattern sm:bg-[left_-2px_top_240px] bg-[length:390px_429px] md:bg-[length:977px_650px] md:bg-[right_-270px_top_175px] xl:bg-[right_-96px_top_100px] xl:bg-[length:_977px]"
+    className="bg-no-repeat relative bg-hero-pattern sm:bg-[left_-2px_top_240px] bg-[length:390px_429px] md:bg-[length:977px_650px] md:bg-[right_-270px_top_175px] xl:bg-[right_-96px_top_100px] xl:bg-[length:_977px] xl:pb-[120px]"
   >
         <div className="mx-auto xl:w-[1440px] xl:mt-[244px] mt-[50px] sm:px-[16px] md:px-[32px] md:flex flex-col xl:px-[120px]">
         <h1 className='xl:leading-[120%] xl:text-[70px] xl:w-[451px] sm:w-[322px] text-stone-50 sm:text-[50px] text-[46px] font-bold sm:text-start text-center'>Welcome To Sister Street App</h1>
