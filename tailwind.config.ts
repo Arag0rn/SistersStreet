@@ -15,6 +15,9 @@ const config: Config = {
           'hero-pattern': "url('../images/hero/Polygon.svg')",
           'staysafe-pattern': "url('../images/staysafe/Polygon2.svg')",
       },
+      transitionTimingFunction: {
+        'in-expo': 'cubic-bezier(0.95, 0.05, 0.795, 0.035)',
+      }
     },
     screens: {
       'sm': '390px',

@@ -20,7 +20,7 @@ export const Header = () => {
           <NavDesktop />
           <NavMobile />
 
-          <button className="hidden h-[50px] w-[140px] rounded-[30px] bg-gradient-to-tr from-[#FF6700] via-[#FF3186] to-[#49CEAE] text-[16px] text-black xl:block">
+          <button className="hidden h-[50px] w-[140px] rounded-[30px] bg-gradient-to-tr from-[#FF6700] via-[#FF3186] to-[#49CEAE] hover:bg-gradient-to-tr hover:from-[#FF6700] hover:to-[#49CEAE] text-[16px] text-black xl:block hover:ease-in-out">
             Donate
           </button>
         </div>
