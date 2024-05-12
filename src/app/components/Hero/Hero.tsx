@@ -9,14 +9,14 @@ import phone2 from "../../../images/hero/Phone2.webp";
 
 const Hero = () => {
   return (
-    <section className="relative bg-hero-pattern bg-[length:390px_429px] bg-no-repeat sm:bg-[left_-2px_top_240px] md:bg-[length:977px_910px] md:bg-[right_-420px_top_80px] md:pb-[120px] xl:bg-[length:_977px] xl:bg-[right_calc(50%_-_360px)_top_100px] xl:pb-[120px] overflow-hidden">
-      <div className="mx-auto mt-[50px] flex-col sm:px-[16px] md:flex md:px-[32px] xl:mt-[244px] xl:max-w-[1440px] xl:px-[120px]">
+    <section className="relative bg-hero-pattern bg-[length:390px_429px] bg-no-repeat sm:bg-[left_-2px_top_240px] md:bg-[length:977px_910px] md:bg-[right_-420px_top_80px] md:pb-[120px] xl:bg-[length:_977px] xl:bg-[right_calc(50%_-_360px)_top_380px] xl:pb-[120px] overflow-hidden">
+      <div className="mx-auto mt-[50px] flex-col sm:px-[16px] md:flex md:px-[32px] xl:pt-[244px] xl:max-w-[1440px] xl:px-[120px]">
         <h1 className="text-center text-[46px] font-bold text-stone-50 sm:w-[322px] sm:text-start sm:text-[50px] xl:w-[451px] xl:text-[70px] xl:leading-[120%]">
           Welcome To Sister Street App
         </h1>
 
         <Image
-          className="absolute z-10 h-[300px] max-h-none max-w-none sm:top-[255px] md:right-[calc(50%_-_245px)] md:top-[89px] md:h-[500px] md:w-[274px] xl:right-[calc(50%_-_250px)] xl:top-[10px] xl:w-[328px] xl:h-[600px]"
+          className="absolute z-10 h-[300px] max-h-none max-w-none sm:top-[255px] md:right-[calc(50%_-_245px)] md:top-[89px] md:h-[500px] md:w-[274px] xl:right-[calc(50%_-_250px)] xl:top-[280px] xl:w-[328px] xl:h-[600px]"
           priority
           src={phone1}
           height={303}
@@ -24,7 +24,7 @@ const Hero = () => {
           alt="Facebook"
         />
         <Image
-          className="absolute z-10 h-[320px] max-h-none max-w-none sm:left-[196px] sm:top-[283px] md:left-[calc(50%_-_-190px)] md:top-[259px] md:h-[500px] md:w-[274px] xl:left-[calc(50%_-_-380px)] xl:top-[130px]  xl:w-[328px] xl:h-[600px]"
+          className="absolute z-10 h-[320px] max-h-none max-w-none sm:left-[196px] sm:top-[283px] md:left-[calc(50%_-_-190px)] md:top-[259px] md:h-[500px] md:w-[274px] xl:left-[calc(50%_-_-380px)] xl:top-[420px]  xl:w-[328px] xl:h-[600px]"
           priority
           src={phone2}
           height={20}
