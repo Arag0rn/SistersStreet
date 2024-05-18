@@ -26,7 +26,7 @@ export const NavMobile = () => {
 
   return (
     <div className="xl:hidden">
-        <div className="absolute z-50 right-[15px] top-[25px]"> 
+        <div className="absolute z-50 right-[15px] top-[5px]"> 
        <Hamburger size={60} color="white" easing="ease-in" toggled={isOpen} toggle={setOpen} />
        </div>
        <AnimatePresence>
