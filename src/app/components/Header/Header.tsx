@@ -8,7 +8,7 @@ import logo from "../../../images/header/Logo.svg";
 export const Header = () => {
   return (
     <header>
-      <div className="container relative w-auto mt-[20px] flex justify-between xl:mt-[80px] xl:max-w-[1440px]">
+      <div className="container relative mt-[20px] flex justify-between xl:mt-[80px] xl:max-w-[1440px]">
         <Image
           priority
           src={logo}

@@ -9,8 +9,8 @@ import phone2 from "../../../images/hero/Phone2.webp";
 
 const Hero = () => {
   return (
-    <section className="relative bg-hero-pattern bg-[length:420px_429px] bg-no-repeat sm:bg-[left_-2px_top_300px] md:bg-[length:977px_910px] md:bg-[right_-420px_top_80px] md:pb-[120px] xl:bg-[length:_977px] xl:bg-[right_calc(50%_-_360px)_top_380px] xl:pb-[120px] overflow-hidden">
-      <div className="container w-auto mt-[50px] flex flex-col md:flex xl:pt-[244px] ">
+    <section className="relative bg-hero-pattern bg-[length:420px_429px] bg-no-repeat sm:bg-[left_-2px_top_300px] md:bg-[length:977px_910px] md:bg-[right_-420px_top_80px] md:pb-[120px] xl:bg-[length:_977px] xl:bg-[right_calc(50%_-_360px)_top_380px] xl:pb-[120px]">
+      <div className="container mt-[50px] flex flex-col md:flex xl:pt-[244px] ">
         <h1 className="text-center text-[46px] font-bold text-stone-50 sm:text-[50px] xl:w-[451px] xl:text-[70px] xl:leading-[120%]">
           Welcome To Sister Street App
         </h1>

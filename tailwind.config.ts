@@ -35,7 +35,7 @@ const config: Config = {
           'clip-path': 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
         },
         '.clip-path-custom-clip-desktop': {
-          'clip-path': 'polygon(0 0, 100% 5%, 100% 80%, 0% 100%)',
+          'clip-path': 'polygon(0 0, 100% 7%, 100% 75%, 0% 100%)',
         }
       };
       addUtilities(newUtilities);
