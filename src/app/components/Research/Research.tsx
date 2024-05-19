@@ -1,5 +1,4 @@
 import React from 'react'
-import ResBox from './ResBox';
 
 interface ResearchBox {
     head: string;
