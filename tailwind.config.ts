@@ -36,7 +36,13 @@ const config: Config = {
         },
         '.clip-path-custom-clip-desktop': {
           'clip-path': 'polygon(0 0, 100% 7%, 100% 75%, 0% 100%)',
-        }
+        },
+        '.clip-path-howitwork1': {
+          'clip-path': 'polygon(0% 0px, 100% 23px, 100% 207px, 0% 308px)',
+        },
+        '.clip-path-howitwork-top': {
+          'clip-path': 'polygon(0 0.674805px, 100% 21.1748px, 100% 83.6748px, 0 108.675px)',
+        },
       };
       addUtilities(newUtilities);
     }),
