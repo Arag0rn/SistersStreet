@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero";
 import { StaySafe } from "./components/StaySafe/StaySafe";
 import { Support } from "./components/Support/Support";
 import { JoinUs } from "./components/JoinUs/JoinUs";
+import { Research } from "./components/Research/Research";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <StaySafe/>
     <Support/>
     <JoinUs/>
+    <Research/>
    </>
   );
 }
