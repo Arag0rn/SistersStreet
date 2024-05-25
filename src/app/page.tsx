@@ -6,6 +6,7 @@ import { JoinUs } from "./components/JoinUs/JoinUs";
 import { Research } from "./components/Research/Research";
 import { HowWork } from "./components/HowWork/HowWork";
 import { Aboutus } from "./components/Aboutus";
+import { OurTeam } from "./components/OurTeam/OurTeam";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
     <Research/>
     <HowWork/>
     <Aboutus/>
+    <OurTeam/>
    </>
   );
 }
