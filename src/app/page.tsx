@@ -5,6 +5,7 @@ import { Support } from "./components/Support/Support";
 import { JoinUs } from "./components/JoinUs/JoinUs";
 import { Research } from "./components/Research/Research";
 import { HowWork } from "./components/HowWork/HowWork";
+import { Aboutus } from "./components/Aboutus";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     <JoinUs/>
     <Research/>
     <HowWork/>
+    <Aboutus/>
    </>
   );
 }
