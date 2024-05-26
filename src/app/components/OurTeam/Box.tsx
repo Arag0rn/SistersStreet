@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
-import romb from '../../../images/OurTeam/Romb1.svg'
-import romb2 from '../../../images/OurTeam/Romb2.svg'
+import romb from '../../../images/ourteam/Romb1.svg'
+import romb2 from '../../../images/ourteam/Romb2.svg'
 import { StaticImageData } from 'next/image';
 
 interface BoxProps {

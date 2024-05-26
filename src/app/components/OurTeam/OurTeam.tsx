@@ -2,7 +2,7 @@ import React from 'react'
 import { Box } from './Box';
 import member1 from  '../../../images/ourteam/foti.png'
 import member2 from '../../../images/ourteam/sarah.png'
-import member3 from '../../../images/OurTeam/liza.webp'
+import member3 from '../../../images/ourteam/liza.webp'
 import { StaticImageData } from 'next/image';
 
 
