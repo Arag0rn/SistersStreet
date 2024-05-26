@@ -39,7 +39,7 @@ export const OurTeam = () => {
     <section className='pt-[110px]'>
         <div className='container flex-col'>
             <h2 className='text-white text-[34px] font-bold text-center xl:text-[70px]'>Our Team</h2>
-            <ul className='flex flex-col items-center px-[15px] gap-[30px] mt-[16px] md:items-start xl:flex-row'>
+            <ul className='flex flex-col items-center px-[15px] gap-[30px] mt-[16px] md:items-start xl:flex-row xl:mt-[48px] xl:justify-center'>
             {Object.keys(ourTeamBox).map((key, index) => {
                 const box = ourTeamBox[key];
                 return <Box index={index} key={key} head={box.head} position={box.position} text={box.text} image={box.image} />;

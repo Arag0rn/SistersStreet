@@ -51,7 +51,7 @@ export const Support = () => {
         <div className='container md:flex-col xl:px-[324px] xl:w-auto items-center'>
         <h2 className="w-[250px] text-[34px] font-bold leading-[122%] text-stone-50 md:text-[50px] md:text-center md:w-auto md:mr-[19px] xl:w-auto xl:text-[70px] xl:mr-0">How To Support Us?</h2>
         <p className="mt-[20px] text-[20px] font-normal text-stone-50 md:text-[24px] md:text-center md:w-auto xl:w-[653px] xl:text-[24px]">Although Sister Street is still in its early days, you can still join the sister community!</p>
-        <ul className="flex flex-col gap-[16px] mt-[20px] md:flex-row flex-wrap">
+        <ul className="flex flex-col gap-[16px] mt-[20px] md:flex-row flex-wrap xl:justify-center">
             {Object.keys(supportBox).map((key) => {
                 const box = supportBox[key];
                 return <Box key={key} head={box.head} text={box.text} button={box.button} color={box.color} image={box.image} />;
