@@ -9,8 +9,8 @@ import woman3_3 from "../../../images/HowWork/Woman3(3).svg";
 
 export const HowWork = () => {
   return (
-    <section>
-      <div className="overflow:visible container relative pb-[140px] pt-[1px] md:flex-col xl:w-auto">
+    <section className="overflow-hidden">
+      <div className="container relative pb-[140px] pt-[1px] md:flex-col xl:w-auto">
         <div className="md: absolute inset-0 top-[110px] z-0 -mx-[calc(50vw-50%)] h-[108px] bg-[#49CEAE] clip-path-howitwork-top"></div>
         <h2 className="mx-auto mt-[266px] w-[300px] text-center text-[34px] font-bold text-white md:text-[50px] md:w-[530px] md:leading-[61px] xl:w-auto xl:text-[70px]">
           How Does Sister Street Work?
