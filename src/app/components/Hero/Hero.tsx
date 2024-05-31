@@ -1,9 +1,10 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import insta from "../../../images/hero/Insta.svg";
-import facebook from "../../../images/hero/Facebook.svg";
-import linkedIn from "../../../images/hero/linkedIn.svg";
+import Facebook from "../LetsMeet/Facebook"
+import Instagram from "../LetsMeet//Instagram"
+import Linkedin from "../LetsMeet//Linkedin"
+
 import phone1 from "../../../images/hero/Phone1.webp";
 import phone2 from "../../../images/hero/Phone2.webp";
 
@@ -16,20 +17,20 @@ const Hero = () => {
         </h1>
 
         <Image
-          className="absolute z-10 h-[300px] max-h-none max-w-none sm:top-[310px] md:right-[calc(50%_-_245px)] md:top-[89px] md:h-[500px] md:w-[274px] xl:right-[calc(50%_-_250px)] xl:top-[280px] xl:w-[328px] xl:h-[600px]"
+          className="absolute z-10 h-[300px] max-h-none max-w-none sm:top-[310px] md:right-[calc(50%_-_245px)] md:top-[89px] md:h-[500px] md:w-[274px] xl:right-[calc(50%_-_250px)] xl:top-[280px] xl:h-[600px] xl:w-[328px]"
           priority
           src={phone1}
           height={303}
           width={170}
-          alt="Facebook"
+          alt="Phone1"
         />
         <Image
-          className="absolute z-10 h-[320px] max-h-none max-w-none sm:left-[196px] sm:top-[340px] md:left-[calc(50%_-_-190px)] md:top-[259px] md:h-[500px] md:w-[274px] xl:left-[calc(50%_-_-380px)] xl:top-[420px]  xl:w-[328px] xl:h-[600px]"
+          className="absolute z-10 h-[320px] max-h-none max-w-none sm:left-[196px] sm:top-[340px] md:left-[calc(50%_-_-190px)] md:top-[259px] md:h-[500px] md:w-[274px] xl:left-[calc(50%_-_-380px)] xl:top-[420px]  xl:h-[600px] xl:w-[328px]"
           priority
           src={phone2}
           height={20}
           width={170}
-          alt="Facebook"
+          alt="Phone2"
         />
 
         <p className="z-10 mt-[440px] text-start text-[20px] font-normal text-stone-50 md:mt-[24px] md:w-[377px] md:text-[24px] xl:w-[476px]">
@@ -42,21 +43,9 @@ const Hero = () => {
           JOIN US
         </button>
         <div className="mt-[56px] flex justify-between px-[37px] md:w-[284px] md:px-[1px]">
-          <Image
-            priority
-            src={facebook}
-            height={48}
-            width={48}
-            alt="Facebook"
-          />
-          <Image priority src={insta} height={48} width={48} alt="Insta" />
-          <Image
-            priority
-            src={linkedIn}
-            height={48}
-            width={48}
-            alt="linkedIn"
-          />
+        <Facebook />
+        <Instagram/>
+        <Linkedin/>
         </div>
       </div>
     </section>

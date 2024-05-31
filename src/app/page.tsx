@@ -7,6 +7,7 @@ import { Research } from "./components/Research/Research";
 import { HowWork } from "./components/HowWork/HowWork";
 import { Aboutus } from "./components/Aboutus";
 import { OurTeam } from "./components/OurTeam/OurTeam";
+import { LetsMeet } from "./components/LetsMeet/LetsMeet";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
     <HowWork/>
     <Aboutus/>
     <OurTeam/>
+    <LetsMeet/>
    </>
   );
 }

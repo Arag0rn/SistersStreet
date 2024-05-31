@@ -68,3 +68,11 @@ ol {
     @apply mx-auto w-auto sm:px-[16px] md:flex md:px-[32px] xl:max-w-[1440px] xl:px-[120px];
   }
 }
+
+.svg-gradient {
+  transition: fill 0.3s;
+}
+
+.svg-gradient:hover {
+  fill: url(#gradient-hover);
+}

@@ -18,6 +18,9 @@ const config: Config = {
       transitionTimingFunction: {
         'in-expo': 'cubic-bezier(0.95, 0.05, 0.795, 0.035)',
       },
+      fill: {
+        'hover-gradient': 'linear-gradient(var(--tw-gradient-stops))',
+      },
     },
     screens: {
       'sm': '390px',
