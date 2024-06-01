@@ -64,6 +64,9 @@ ol {
   .btn-main {
     @apply bg-pink-500 text-black font-extrabold py-[12px] rounded-[30px] text-[22px];
   }
+  .btn-main:hover {
+    background: linear-gradient(222deg, #FF6700 21.27%, #FF3186 93.04%);
+  }
   .container {
     @apply mx-auto w-auto sm:px-[16px] md:flex md:px-[32px] xl:max-w-[1440px] xl:px-[120px];
   }
