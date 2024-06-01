@@ -39,7 +39,7 @@ const Hero = () => {
           community through text, call or walking together.
         </p>
 
-        <button className="z-10 mt-[56px] w-full rounded-[30px] bg-pink-500 py-[12px] text-[22px] font-extrabold text-neutral-900 md:w-[284px]">
+        <button className="btn-main z-10 mt-[56px]  rounded-[30px] py-[12px] text-[22px] font-extrabold md:w-[284px]">
           JOIN US
         </button>
         <div className="mt-[56px] flex justify-between px-[37px] md:w-[284px] md:px-[1px]">
