@@ -37,7 +37,7 @@ export const Donations = () => {
         <p className="z-10 mt-[440px] text-start text-[20px] font-normal text-stone-50 md:mt-[24px] md:w-[377px] md:text-[24px] xl:w-[476px]">
         Thank you for considering donating to the development of the Sister Street App. We are fully committed to maintaining complete transparency about where your money is spent. 
 <br /><br />
-Through our insider news and updates, we will take you along on our Sister Street journey, sharing every step of the way. Every cent counts, and we truly appreciate all of our patrons' contributions!
+Through our insider news and updates, we will take you along on our Sister Street journey, sharing every step of the way. Every cent counts, and we truly appreciate all of our patrons&apos; contributions!
         </p>
 
         <button className="btn-main z-10 mt-[56px]  rounded-[30px] py-[12px] text-[22px] font-extrabold md:w-[284px]">
