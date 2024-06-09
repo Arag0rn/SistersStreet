@@ -1,9 +1,9 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import Facebook from "../LetsMeet/Facebook"
-import Instagram from "../LetsMeet//Instagram"
-import Linkedin from "../LetsMeet//Linkedin"
+import Facebook from "../LetsMeet/Facebook";
+import Instagram from "../LetsMeet//Instagram";
+import Linkedin from "../LetsMeet//Linkedin";
 
 import phone1 from "../../../images/hero/Phone1.webp";
 import phone2 from "../../../images/hero/Phone2.webp";
@@ -43,9 +43,9 @@ const Hero = () => {
           JOIN US
         </button>
         <div className="mt-[56px] flex justify-between px-[37px] md:w-[284px] md:px-[1px]">
-        <Facebook />
-        <Instagram/>
-        <Linkedin/>
+          <Facebook />
+          <Instagram />
+          <Linkedin />
         </div>
       </div>
     </section>

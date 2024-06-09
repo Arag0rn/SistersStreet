@@ -4,6 +4,7 @@ import Image from "next/image";
 import { NavDesktop } from "./BurgerMenu/NavDesktop";
 import { NavMobile } from "./BurgerMenu/Nav-mobile";
 import logo from "../../../images/header/Logo.svg";
+import Link from "next/link";
 
 export const Header = () => {
   return (
@@ -20,9 +21,9 @@ export const Header = () => {
           <NavDesktop />
           <NavMobile />
 
-          <button className="hidden h-[50px] w-[140px] rounded-[30px] bg-gradient-to-tr from-[#FF6700] via-[#FF3186] to-[#49CEAE] hover:bg-gradient-to-tr hover:from-[#FF6700] hover:to-[#49CEAE] text-[16px] text-black xl:block hover:ease-in-out">
+          <Link href="/donations" className="hidden h-[50px] w-[140px] rounded-[30px] bg-gradient-to-tr from-[#FF6700] via-[#FF3186] to-[#49CEAE] text-[16px] text-black hover:bg-gradient-to-tr hover:from-[#FF6700] hover:to-[#49CEAE] hover:ease-in-out xl:flex xl:justify-center xl:items-center">
             Donate
-          </button>
+          </Link>
         </div>
       </div>
     </header>
