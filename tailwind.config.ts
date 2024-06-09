@@ -46,6 +46,9 @@ const config: Config = {
         '.clip-path-howitwork-top': {
           'clip-path': 'polygon(0 0.674805px, 100% 21.1748px, 100% 83.6748px, 0 108.675px)',
         },
+        '.clip-path-donations': {
+          'clip-path': 'polygon(0% 14.21%, 100% 0%, 100% 93.19%, 0% 100%)'
+        }
       };
       addUtilities(newUtilities);
     }),

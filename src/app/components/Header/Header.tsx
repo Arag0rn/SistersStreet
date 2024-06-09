@@ -10,6 +10,7 @@ export const Header = () => {
   return (
     <header>
       <div className="container relative mt-[20px] flex justify-between xl:mt-[80px] xl:max-w-[1440px]">
+        <Link href={'/'}>
         <Image
           priority
           src={logo}
@@ -17,6 +18,7 @@ export const Header = () => {
           width={60}
           alt="sister street logo"
         />
+        </Link>
         <div className="flex items-center justify-between gap-[32px]">
           <NavDesktop />
           <NavMobile />

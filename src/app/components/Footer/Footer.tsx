@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import logo from "../../../images/header/Logo.svg";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -8,6 +9,7 @@ export const Footer = () => {
       <div className="h-[180px]"></div>
       <div className="container flex justify-between">
         <div className=" w-[320px] pl-[120px]">
+        <Link href={'/'}>
           <Image
             priority
             src={logo}
@@ -15,6 +17,7 @@ export const Footer = () => {
             width={60}
             alt="sister street logo"
           />
+          </Link>
         </div>
         <ul className="flex gap-[32px] pr-[120px] pt-[16px]">
           <li className="flex w-[180px] flex-col">

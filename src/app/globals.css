@@ -70,6 +70,12 @@ ol {
   .container {
     @apply mx-auto w-auto sm:px-[16px] md:flex md:px-[32px] xl:max-w-[1440px] xl:px-[120px];
   }
+  .btn-blue {
+    @apply bg-[#262595] text-white font-extrabold px-[33px] py-[12px] rounded-[30px] text-[22px];
+  }
+  .btn-blue:hover{
+    background :linear-gradient(89deg, #262595 1.33%, #50509B 67.43%)
+  }
 }
 
 .svg-gradient {
